@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima's Health Hub - Patient Portal</title>
+    <link rel="stylesheet" href="patientportal.css">
+</head>
+<body>
+   
+    <div class="container">
+        <header>
+            <h1>Lima's Health Hub</h1>
+        </header>
+        <main>
+            <section id="login-section">
+                <h2>Patient Portal</h2>
+                <p>Do you have an account?</p>
+                <button onclick="showLoginForm()">Log In</button>
+                <button onclick="showSignUpForm()">Sign Up</button>
+                <form id="login-form" style="display:none;">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label>
+                        <input type="checkbox" name="terms" required> I accept the <a href="#">terms and conditions</a>
+                    </label>
+                    <button type="submit">Login</button>
+                </form>
+                <form id="signup-form" style="display:none;">
+                    <label for="new-username">Username:</label>
+                    <input type="text" id="new-username" name="new-username" required>
+                    <label for="new-password">Password:</label>
+                    <input type="password" id="new-password" name="new-password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </section>
+            <section id="portal-section" style="display:none;">
+                <h2>Welcome to Your Patient Portal</h2>
+                <form id="medical-form">
+                    <label for="illness">Describe your illness or challenge:</label>
+                    <textarea id="illness" name="illness" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="recommendation" style="display:none;">
+                    <h3>Recommended Treatment</h3>
+                    <p id="treatment"></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Lima's Health Hub. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="gynae.js"></script>
+</body>
+</html>

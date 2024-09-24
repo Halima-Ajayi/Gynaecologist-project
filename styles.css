@@ -1,0 +1,587 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f8b400;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.hero {
+  padding: 50px 20px;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+.service {
+  margin: 20px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  margin: 10px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.doctor-info {
+  padding: 10px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  .gallery img {
+      width: 100%;
+  }
+
+  .carousel-item {
+      min-width: 100%;
+  }
+} */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: sticky;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.container1 a {
+  text-decoration: none;
+}
+
+.container1 a:hover {
+  color: #83b4ff;
+}
+
+button:hover {
+  color: #83b4ff;
+  background-color: white;
+}
+
+.appointment {
+  background-color: rgb(131, 180, 255);
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  width: 60%;
+  margin-inline: auto;
+}
+
+header {
+  background-color: #f8b400;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 60px; /* Adjust this value to ensure the header is below the navbar */
+}
+
+
+#services {
+  text-align: center;
+  padding: 2em;
+}
+
+h2 {
+  margin-inline: auto;
+  text-align: center;
+  font-size: 40px ;
+}
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 2em auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.doctor-info {
+  padding: 10px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+
+.gallery img {
+  margin: 10px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+.service {
+  margin: 20px 0;
+}
+
+.service-image {
+    margin-top: 10px;
+}
+
+.service-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.dedication {
+  background-color: #f8b400;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.dedication h2 {
+  color: #333;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.parent img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 300px;
+  /* height: 300px; */
+}
+
+.parent p {
+  color: #666;
+}
+
+.parent-text {
+  font-size: 17px;
+}
+
+
+@media (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  .carousel-item {
+      min-width: 100%;
+  }
+
+  .gallery img {
+      width: 100%;
+  }
+}
+
+
+
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.information {
+  line-height: 30px;
+}
+
+.info {
+  padding-right: 5px;
+}
+
+.lhh-footer {
+  color: black;
+  padding-top: 50px;
+}
+
+.lhh-footer:hover {
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: #83b4ff;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: white; 
+  padding-top: 20px;
+}
+
+.footer-section h3:hover {
+  color: #444;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #ffcc00;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 30px;
+  background-color: #83b4ff;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.fa-whatsapp {
+  background: white;
+  color: black;
+  font-size: 10px;
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa-tiktok {
+  background: white;
+  color: black;
+  font-size: 10px;
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.fa-instagram {
+  background: white;
+  color: black;
+  font-size: 10px;
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa-whatsapp:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram:hover {
+  opacity: 0.7;
+}
+
+.fa-tiktok:hover {
+  opacity: 0.7;
+}
+
+
+.me {
+  margin-inline: auto;
+  padding-top: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .container1 {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start */
+      margin-left: 0; /* Remove left margin */
+      margin-top: 20px; /* Adjust top margin */
+  }
+
+  .container1 a, .appointment {
+      margin: 10px 0; /* Add margin between items */
+  }
+}
+
+
+
+
+
+/* @media screen and (width < 1440px) {
+  .container6 {
+    padding-left: 200px;
+  }
+  .wedo-content {
+    margin-top: 16px;
+  }
+  .container1 {
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 15px;
+  }
+}
+
+@media screen and (width < 1124px) {
+  .container6 {
+    padding-left: 170px;
+  }
+}
+
+@media screen and (width <= 1113px) {
+  .container6 {
+    padding-left: 140px;
+  }
+}
+
+@media screen and (width < 800px) {
+  .img-content {
+    flex-direction: column;
+    display: flex;
+  }
+  .hospital2 {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width < 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media screen and (max-width < 480px) {
+  .container {
+    grid-template-columns: 1fr; 
+  }
+}
+
+@media screen and (max-width < 1190px) {
+  .container {
+    width: 35%;
+    height: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guide {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guide {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    flex: 1 1 100%;
+  }
+} */

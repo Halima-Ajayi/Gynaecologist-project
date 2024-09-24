@@ -1,0 +1,273 @@
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.container1 a {
+  text-decoration: none;
+}
+
+.container1 a:hover {
+  color: #83b4ff;
+}
+
+button:hover {
+  color: #83b4ff;
+  background-color: white;
+}
+
+.appointment {
+  background-color: rgb(131, 180, 255);
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://img.freepik.com/premium-photo/stethoscope-with-notebook-pen-coffee-white-paper-glasses-bottle-medicine-green-background-medical-background-concept_34362-1835.jpg?ga=GA1.1.1658738535.1725169103&semt=ais_hybrid'); /* Adds a background image */
+    background-size: cover; 
+    background-position: center; 
+    height: 300px;
+   border-radius: 20px;
+}
+
+.container-services {
+ padding-top: 120px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+.services {
+    padding: 20px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.services .intro {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    margin: 10px 0;
+}
+
+.service-card p {
+    margin: 0;
+    color: #666;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  
+  .information {
+    line-height: 30px;
+  }
+  
+  .info {
+    padding-right: 5px;
+  }
+  
+  .lhh-footer {
+    color: black;
+    padding-top: 90px;
+    font-weight: 700;
+    font-size: 60px;
+  }
+  
+  .lhh-footer:hover {
+    color: #fff;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #83b4ff;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    color: white; 
+    padding-top: 20px;
+  }
+  
+  .footer-section h3:hover {
+    color: #444;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ffcc00; 
+  }
+  
+  .footer-section .social a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .footer-bottom {
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 30px;
+    background-color: #83b4ff;
+    padding-bottom: 30px;
+    color: black;
+  }
+
+  .me {
+    margin-inline: auto;
+    padding-top: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+.fa-whatsapp {
+  background: white;
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.fa-tiktok {
+  background: white;
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-whatsapp:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram:hover {
+  opacity: 0.7;
+}
+
+.fa-tiktok:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .container1 {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start */
+      margin-left: 0; /* Remove left margin */
+      margin-top: 20px; /* Adjust top margin */
+  }
+
+  .container1 a, .appointment {
+      margin: 10px 0; /* Add margin between items */
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .service-card {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
